@@ -1,0 +1,305 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Engage Bakery </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="tab">
+
+            <img src="./images/bakery-color.png" alt="Bakery">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Our Offer</a>
+            <a href="">Gallery</a>
+            <a href="">Blog</a>
+            <a href="">Contact</a>
+        </div>
+<div class="cart">
+  <img src="./images/logo-cart.png" alt="logo-cart">
+</div>
+
+        <div class="welcome-page">
+            <div class="welcome-text">
+                <p class="p-up">Welcome to</p>
+                <h1>Family Bakery</h1>
+                <p class="p-down">We're the biggest, best equipped and most advanced Bakery in the greater<br>Los
+                    Angeles area.</p>
+                <button class="left-button">Learn more</button>
+                <button class="right-button">Contact us</button>
+            </div>
+        </div>
+        <div class="page-2">
+            <div class="pic">
+                <img src="./images/page2-image.jpg" alt="page-2">
+            </div>
+            <div class="text2">
+                <h2>Who we are?</h2>
+                <p>
+                    We have been operating for over 30 years and are Members of The Federation of <br>
+                    Master Builders. We work on projects big and small from small residential extensions <br>
+                    to full house. We are so happy with this theme. Everyday it make our lives better.
+                </p>
+                <ul class="about-list">
+                    <li>We care about environment.</li>
+                    <li>We are trusted by hundreds of clients.</li>
+                    <li>Social media loves us!</li>
+                    <li>This list is super easy to create.</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="page-3">
+
+            <div class="page-3-left">
+                <h2>Our Location</h2>
+                <p>We have been operating for over 30 years and are Members of The Federation of <br>
+                    Master Builders. We work on projects big and small from small residential extensions <br>
+                    to full house. We are so happy with this theme. Everyday it make our lives better.</p>
+
+                <p>Story on projects big and small from small residential extensions to full house. We are <br>
+                    so happy with this theme. Everyday it make our lives better.</p>
+            </div>
+
+            <div class="page-3-right">
+                <img src="./images/section3.jpg" alt="section3">
+            </div>
+        </div>
+        <div class="page-4">
+
+        </div>
+
+
+
+
+    </div>
+</body>
+
+
+
+</html>
+
+
+
+
+
+
+--------------------------------------
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.tab {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    border: 0;
+    display: flex;
+    justify-content: space-between;
+    /* المسافة بين الشعار والقائمة */
+    align-items: center;
+    padding: 20px 50px;
+    background-color: white;
+
+
+}
+.cart{
+position: fixed;
+right: 0px;
+top: 140px;
+
+
+}
+
+.tab a {
+    color: black;
+    font-size: 18px;
+    font-family: "Alegreya";
+    text-decoration: none;
+}
+
+
+
+.welcome-page {
+    background-image: url(../images/background1.jpg);
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+
+}
+
+.p-up {
+    color: rgba(255, 255, 255, .92);
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    justify-content: center;
+}
+
+.p-down {
+    font-size: 24px;
+    color: rgba(255, 255, 255, .92);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.welcome-page h1 {
+    color: #fff;
+    font-size: 76px;
+    font-family: "Alegreya";
+    margin-bottom: 18px;
+
+
+}
+
+.left-button {
+    border: 2px solid transparent;
+
+    font-family: "Alegreya Sans";
+    background-color: #8e7754;
+    border-radius: 4px;
+    color: #fff;
+
+}
+
+.right-button {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid;
+    border-color: #fff;
+
+
+}
+
+.welcome-text {
+    display: block;
+    width: 750px;
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+
+}
+
+.left-button,
+.right-button {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Open Sans', arial;
+    font-size: 17px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    padding: 15px 28px;
+
+}
+
+
+.page-2 {
+    display: flex;
+    /* صورة يسار + محتوى يمين */
+    align-items: center;
+    /* توسيط عمودي */
+    justify-content: center;
+    gap: 70px;
+    /* مسافة بين الصورة والنص */
+    padding: 100px 120px;
+    background-color: #fff;
+    height: 100vh;
+}
+
+.pic img {
+    width: 420px;
+    /* حجم الصورة */
+    height: auto;
+    border-radius: 4px;
+}
+
+.text2 h2 {
+    display: block;
+    font-family: "Alegreya";
+    font-size: 32px;
+    color: #303030;
+    margin-bottom: 25px;
+    margin-top: 0;
+
+}
+
+.text2 p {
+    margin-top: 0;
+    color: #686868;
+    margin-bottom: 20px;
+
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.8;
+    font-family: "Alegreya Sans";
+}
+
+.about-list {
+    display: block;
+    padding-left: 0;
+    padding-left: 20px;
+    margin-top: 0;
+    margin-bottom: 35px;
+
+}
+
+.about-list li {
+    padding-left: 56px;
+    margin-bottom: 2px;
+    border: 0;
+    padding: 15px 0;
+    list-style: none;
+    padding: 16px 0;
+    border-bottom: none;
+    color: #686868;
+    font-size: 17px;
+    font-family: "Alegreya Sans";
+
+}
+
+.page-3 {
+    display: flex;
+    /* صورة يسار + محتوى يمين */
+    align-items: center;
+    /* توسيط عمودي */
+    justify-content: center;
+    gap: 70px;
+    /* مسافة بين الصورة والنص */
+    padding: 100px 120px;
+    background: #f8f8f8;
+    height: 100vh;
+
+    
+}
+
+.page-3-right img {
+    width: 600px;
+    height: 500px;
+}
+
+.page-3-left h2 {
+    font-family: "Alegreya";
+    font-size: 32px;
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+}
+
+
+.page-3-left p {
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    color: #686868;
+font-size: 17px;
+}
